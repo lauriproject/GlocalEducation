@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #037573;
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+	position: relative;
+	
+}
+
+.navbar-default {
+    position: absolute;
+    background-color: transparent;
+	border:0px;	
+}
+
+
+.mid-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+	margin-top:10px;
+}
+
+.navbar-text{
+    float: right;
+	padding: 10px;
+}
+
+.jumbotron {
+	background:none;
+	padding-bottom: 15px;
+}
+
+.jumbotron h1{
+	font-family: "Montserrat", sans-serif;
+	color: #FFFC19;
+    line-height: 1.3em;
+}
+
+.header {
+    height: 45em;
+    padding-top: 9em;
+    margin-bottom: 2em;
+    background-image: url(../images/hero-01.png) ;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+.dona{
+	background-color:#FFFC19;
+	color:#0C5470;
+	font-weight:600;
+	border:0px;
+}
+
+.scopri{
+	color:#FFFC19;
+	background-color:transparent;
+	margin:10px;
+	font-weight:600;
+	border: 1.5px solid #FFFC19;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus { 
+    background-color: #0971b2;
+    color: #FFFC19;
+}
+
+.colums{
+	text-align: center;
+	color:#FFF;
+}
+
+.colums h3{
+
+	font-family: "Montserrat", sans-serif;
+	color: #FFFC19;
+    line-height: 1.3em;
+}
+
+.colums p{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+
+.bg-green{
+	background-image:url(../images/Untitled-1-01-01.svg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.page-header{
+	color:#037573;
+	border-bottom:hidden;
+	text-align:center;
+}
+
+.featurette h2{
+-webkit-margin-before: 0em;
+}
+
+
+.featurette p{
+	color:#005664;
+}
+
+
+.service h1{
+	color:#0971b2;
+	text-align:center;
+}
+
+.carousel-indicators {
+	bottom: -35px;
+}
+
+.carousel-inner h4{
+	color:#FFF;
+	font-weight:300;
+	line-height:1.3em; 
+}
+
+
+.alt2{
+	background-image:url(../images/bg-01.svg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+
+.testimonials h1{
+	color:#FFF;
+	margin-bottom:0px;
+}
+
+.alt3{
+	background-color:#FFF;
+}
+
+.footer p{
+	color:#000;
+	font-family: "Monserrat", "Serif";
+	font-size:14px;
+}
+
+.footer a{
+	color:#0c5470;
+}
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+ .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
